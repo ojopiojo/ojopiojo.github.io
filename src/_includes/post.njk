@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+<h2>{{ title }}</h2>
+<p><small>Posted {{ page.date | dateFmt }}</small></p>
+<hr>
+{{ content | safe }}
+<hr>
+<p><a href="/posts/">&laquo; Back to articles</a></p>

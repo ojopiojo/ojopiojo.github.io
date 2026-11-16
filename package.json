@@ -1,0 +1,16 @@
+{
+  "name": "ojopiojo-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@vscode/markdown-it-katex": "^1.1.0",
+    "katex": "^0.16.11",
+    "markdown-it": "^14.1.0"
+  }
+}
